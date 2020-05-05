@@ -1,0 +1,14 @@
+{
+    "name": "yuchanns/toybox",
+    "type": "library",
+    "description": "a php container",
+    "require": {
+        "php": "^7.4",
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yuchanns\\toybox\\": "src"
+        }
+    }
+}
