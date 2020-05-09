@@ -4,7 +4,9 @@
     "description": "a php container",
     "require": {
         "php": "^7.4",
-        "symfony/console": "^5.0"
+        "symfony/console": "^5.0",
+        "ext-posix": "*",
+        "ext-pcntl": "*"
     },
     "autoload": {
         "psr-4": {
